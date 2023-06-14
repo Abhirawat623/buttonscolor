@@ -1,0 +1,39 @@
+body{
+    background-color:grey;
+}
+
+#buttons {
+      display:flex;
+     justify-content:space-around;
+     margin-top: 35vh ;
+ }
+
+.button {
+    height:40px;
+    width: 50px;
+    border-radius:6px;
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+}
+
+.btn-yellow{
+    background-color: yellow;
+    color: white;
+}
+
+.btn-blue{
+    background-color: blue;
+    color: white;
+}
+
+.btn-green{
+    background-color: green;
+    color: white;
+}
+.btn-pink{
+    background-color: pink;
+    color: white;
+}
