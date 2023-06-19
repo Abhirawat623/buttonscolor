@@ -5,7 +5,7 @@ allButtons.addEventListener("click",(event)=>{
     // console.log(event.target.innerText)
     let btnText = event.target.innerText;
 
-    if(btnText==="Red"){
+    if(btnText==="Red"){. //strictly checker is imp as it chcks for the exact word neeeded here
     event.target.classList.toggle("btn-red");
     }
     else if(btnText==="Yellow"){
